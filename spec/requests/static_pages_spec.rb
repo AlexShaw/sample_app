@@ -4,7 +4,6 @@ describe "Static pages" do
 
   describe "Home page" do
 
-<<<<<<< HEAD
     it "should have the h1 'Sample App'" do
       visit '/static_pages/home'
       page.should have_selector('h1', :text => 'Sample App')
@@ -14,17 +13,11 @@ describe "Static pages" do
       visit '/static_pages/home'
       page.should have_selector('title',
                         :text => "Ruby on Rails Tutorial Sample App | Home")
-=======
-    it "should have the content 'Sample App'" do
-      visit '/static_pages/home'
-      page.should have_content('Sample App')
->>>>>>> static-pages
     end
   end
 
   describe "Help page" do
 
-<<<<<<< HEAD
     it "should have the h1 'Help'" do
       visit '/static_pages/help'
       page.should have_selector('h1', :text => 'Help')
@@ -34,17 +27,11 @@ describe "Static pages" do
       visit '/static_pages/help'
       page.should have_selector('title',
                         :text => "Ruby on Rails Tutorial Sample App | Help")
-=======
-    it "should have the content 'Help'" do
-      visit '/static_pages/help'
-      page.should have_content('Help')
->>>>>>> static-pages
     end
   end
 
   describe "About page" do
 
-<<<<<<< HEAD
     it "should have the h1 'About Us'" do
       visit '/static_pages/about'
       page.should have_selector('h1', :text => 'About Us')
@@ -54,11 +41,6 @@ describe "Static pages" do
       visit '/static_pages/about'
       page.should have_selector('title',
                     :text => "Ruby on Rails Tutorial Sample App | About Us")
-=======
-    it "should have the content 'About Us'" do
-      visit '/static_pages/about'
-      page.should have_content('About Us')
->>>>>>> static-pages
     end
   end
 end
